@@ -136,7 +136,7 @@ export default function Receive() {
                                                 const url = URL.createObjectURL(blob);
                                                 const a = document.createElement("a");
                                                 a.href = url;
-                                                a.download = `NanoShare_${file.filename}`;
+                                                a.download = `BitShare_${file.filename}`;
                                                 a.click();
                                                 fastFiles[i].status = "completed";
                                                 fastFiles[i].downloadUrl = url;
